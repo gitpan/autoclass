@@ -1,0 +1,28 @@
+Revision history
+
+0.01  Mon Dec 22 17:28:49 PST 2003
+	- original version. 
+0.02  Tues 06 Jan 18:03:38 PST 2004 
+        - some documentation changes
+0.03  Mon Jan 12 17:13:33 PST 2004
+        - more documentation changes 
+        - removed Class::WeakSingleton dependency
+0.04  Thu Feb 19 09:39:57 PST 2004
+        - removed Clone dependency 
+	- refactored AutoDB hooks
+0.05  Mon Feb 23 11:12:43 PST 2004
+        - supressed a bunch of warnings throw when using -w flag
+	- use Storable added back to AutoClass
+0.07  Mon Aug 16 18:04:12 PDT 2004
+        - changes to accomodate Class::AutoDB refactor
+0.08  Tue Aug 17 10:36:06 PDT 2004
+       - missed some test files in the 0.07 distribution (oops)
+0.09  Wed Sep  1 12:11:24 PDT 2004
+       - Class::AutoDB::auto_register now takes a Class::AutoClass::Args object as an arg 
+0.091 Mon Apr 18 09:22:47 PDT 2005
+        - removed Data::Dumper dependency
+	- removed versions from dependencies in Makefil.PL
+0.092 Tue May 31 17:40:32 PDT 2005
+	- changed AutoDB require in AutoClass.pm to AutoDB::Object (bug: utility classes were forced to 'use Class::AutoDB::Object'
+	- changed prereq syntax in Makefile.pl to just check for lib existance 
+0.93 Tue Oct 25 15:07:00 PDT 2005
